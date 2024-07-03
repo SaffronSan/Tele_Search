@@ -6,7 +6,7 @@
     theme = "dark", def = {}, current = {}, getlast = () => JSON.parse(localStorage.getItem("last")).name;
 
   async function loadDef(){
-    let data = await fetch("/public/def.json")
+    let data = await fetch("./public/def.json")
       .then((res) => res.json())
       .catch(console.error);
     return data;
@@ -170,7 +170,7 @@
   }
   //Error Handle
   async function errorControl(){
-    await fetch("/public/error.json")
+    await fetch("./public/error.json")
     .then((res) => res.json())
     .then((res) => {
       loadCharacters(res,true,false,false)
