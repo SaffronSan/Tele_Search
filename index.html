@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Tele Search</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" type="image/x-icon" href="tele-search-4.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton+SC&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+AU+NSW:wght@100..400&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <script>
+    tailwind.config = {
+      theme: {
+        fontFamily: {
+          'sans': ["Raleway","Inter Tight"],
+          'serif': ["Playwrite AU NSW","Playfair Display","Aleo"]
+        },
+        extend: {
+          margin: {
+            'ml': '2rem'
+          }
+        },
+        screens: {
+          "mob": {'max': '480px'},
+          'lap': {'min': '1440px'},
+        }
+      },
+      darkMode: 'class'
+    }
+  </script>
+  
+</head>
+
+<body class="bg-main w-full">
+  
+  <nav class="bg-[#3f5a85] border-inherit border-b-2 mx-auto p-5 mb-2 sticky top-0 z-50 w-full shadow-lg flex justify-between text-white border-white dark:text-sky-950 dark:border-sky-950 ">
+    <img href="#search" class = "rounded w-16 lap:w-20 height-20 hover:cursor-pointer" src="tele-search-4.png"/>
+    <div class = "text-4xl lap:text-5xl text-inherit cursor-pointer">
+      <i class="fa-solid fa-sun theme rounded-full bg-inherit p-3 lap:hover:text-black" title= "home"></i>
+    </div>
+  </nav>
+  
+  <main class = "w-full space-y-2">
+    
+    <div id="search" class ="mx-auto lap:w-4/5 p-2 text-center shadow-md rounded border-2 ease-in-out border-white dark:border-sky-950">
+      <h1 class =" lap:text-9xl text-7xl font-serif ">Tele Search</h1>
+      <p class = "text-gray-300 italic mt-2">"Providemus info ad missas"</p>
+    </div>
+
+
+    <div class = "relative w-full lap:w-4/5 mx-auto border-white dark:border-sky-950">
+      <div class = "flex space-x-2 border-2 p-3 border-white dark:border-sky-950">
+        <button class = "search-btn"><i class="fa fa-search my-auto"></i></button> 
+        <input placeholder="Search a show..." type="search" class = "max-h-max text-xl placeholder-inherit w-full bg-inherit placeholder-inherit rounded-md focus:border-inherit focus:outline-none focus:ring-0"/>
+        <button class = "search-rest"><i class="fa-solid fa-rotate-right"></i></button>
+      </div>
+    </div>
+
+    <div class="mx-auto p-2 rounded shadow-lg lap:w-4/5 show-div  border-2 border-white dark:border-sky-950">
+      <section class = "lap:flex space-x-2">
+        <div class = "border-inherit">
+          <img class="show-banner mx-auto lap:mx-0 rounded min-w-[13.4rem] min-h-[18.7rem] shadow-md border-white dark:border-sky-950 border-2" src="https://placehold.jp/300x300.png"/>
+          <div class = "lap:mt-2">
+            <h2 class = "show-name-mb text-4xl lap:hidden text-center font-[Aleo]">Show Name:</h2>
+            <div class = "show-rating border rounded-full border-white dark:border-sky-950 mt-2 lap:mt-0 p-1 space-x-2 border-2 flex justify-around">
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+          </div>
+          <div class = "show-genre mt-3 grid justify-items-stretch grid-cols-1 lap:grid-cols-2 w-full space-y-2 gap-2 lap:space-y-0 space-x-1 text-md border-white dark:border-sky-950">
+          </div>
+        </div>
+        <div class ="space-y-4">
+          <h2 class = "show-name-lp text-4xl mob:hidden lap:mx-0 mx-auto font-[Aleo]">Show Name:</h2>
+          <div class = "show-summary font-[Raleway] lap:text-xl overflow-x-hidden overflow-y-auto min-h-12 text-justify">
+          </div>
+        </div>
+      </section>
+    </div>
+    
+    <div class = "border-white dark:border-sky-950 mx-auto lap:w-4/5 border-2 border-inherit rounded-md shadow-lg p-2 text-xl flex justify-between">
+      <h2 class = "show-chars"></h2>
+      <div class = "space-x-2">
+        <button class = "filter"><i class="filter-icon fa-solid fa-arrow-up-a-z"></i></button>
+        <button class = "filter-rest"><i class="fa-solid fa-rotate-right"></i></button>
+      </div>
+    </div>
+    
+    <div class="character-location justify-items-center mx-auto grid grid-cols-1 lap:grid-cols-3 gap-x-0 gap-2 border-inherit p-2 overflow-auto lap:w-4/5 h-[46rem]">
+      
+    </div>
+    
+  </main>
+  <footer class = "bg-[#3f5a85] border-white dark:border-sky-950 border-t-2 mt-5 lap:p-5 mob:p-3 z-50 shadow-lg flex justify-between">
+    <div class = "border-inherit my-auto">
+      <p class ="">Follow for more</p>
+      <div class = "border-inherit border-2 text-3xl my-auto p-2 shadow flex justify-evenly space-x-4">
+        <a class = "hover:text-white" target="blank" href="https://github.com/SaffronSan"><i class="fa-brands fa-github"></i></a>
+        <a class = "hover:text-white" target="blank" href="https://www.linkedin.com/in/anish-thapa-097a21236/"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+    </div>
+    <h2 class = "my-auto lap:text-5xl text-4xl font-serif">Tele Search</h2>
+  </footer>
+  <script src="script.js"></script>
+</script>
+</body>
+
+</html>

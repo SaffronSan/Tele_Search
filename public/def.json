@@ -1,0 +1,191 @@
+{
+  "id": 0,
+  "url": "N/A",
+  "name": "Show name",
+  "type": "N/A",
+  "language": "N/A",
+  "genres": [
+    "Genre",
+    "Genre"
+  ],
+  "status": "N/A",
+  "runtime": 0,
+  "averageRuntime": 0,
+  "premiered": "N/A",
+  "ended": "N/A",
+  "officialSite": "N/A",
+  "schedule": {
+    "time": "N/A",
+    "days": [
+      "N/A"
+    ]
+  },
+  "rating": {
+    "average": 0
+  },
+  "weight": 0,
+  "network": {
+    "id": 0,
+    "name": "N/A",
+    "country": {
+      "name": "N/A",
+      "code": "N/A",
+      "timezone": "N/A"
+    },
+    "officialSite": null
+  },
+  "webChannel": {
+    "id": 0,
+    "name": "N/A",
+    "country": null,
+    "officialSite": "N/A"
+  },
+  "dvdCountry": null,
+  "externals": {
+    "tvrage": 0,
+    "thetvdb": 7,
+    "imdb": "N/A"
+  },
+  "image": {
+    "medium": "https://placehold.jp/300x300.png",
+    "original": "https://placehold.jp/300x300.png"
+  },
+  "summary": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>",
+  "updated": 0,
+  "_links": {
+    "self": {
+      "href": "N/A"
+    },
+    "previousepisode": {
+      "href": "N/A",
+      "name": "N/A"
+    }
+  },
+  "_embedded": {
+    "cast": [
+      {
+        "person": {
+          "id": 0,
+          "url": "N/A",
+          "name": "Character",
+          "country": {
+            "name": "N/A",
+            "code": "N/A",
+            "timezone": "N/A"
+          },
+          "birthday": "0",
+          "deathday": null,
+          "gender": "N/A",
+          "image": {
+            "medium": "https://placehold.jp/210x290.png",
+            "original": "https://placehold.jp/210x290.png"
+          },
+          "updated": 0,
+          "_links": {
+            "self": {
+              "href": "N/A"
+            }
+          }
+        },
+        "character": {
+          "id": 0,
+          "url": "N/A",
+          "name": "Character 1",
+          "image": {
+            "medium": "https://placehold.jp/210x290.png",
+            "original": "https://placehold.jp/210x290.png"
+          },
+          "_links": {
+            "self": {
+              "href": "N/A"
+            }
+          }
+        },
+        "self": null,
+        "voice": null
+      },
+      {
+        "person": {
+          "id": 1,
+          "url": "N/A",
+          "name": "Character",
+          "country": {
+            "name": "N/A",
+            "code": "N/A",
+            "timezone": "N/A"
+          },
+          "birthday": "0",
+          "deathday": null,
+          "gender": "N/A",
+          "image": {
+            "medium": "https://placehold.jp/210x290.png",
+            "original": "https://placehold.jp/210x290.png"
+          },
+          "updated": 0,
+          "_links": {
+            "self": {
+              "href": "N/A"
+            }
+          }
+        },
+        "character": {
+          "id": 0,
+          "url": "N/A",
+          "name": "Character 2",
+          "image": {
+            "medium": "https://placehold.jp/210x290.png",
+            "original": "https://placehold.jp/210x290.png"
+          },
+          "_links": {
+            "self": {
+              "href": "N/A"
+            }
+          }
+        },
+        "self": null,
+        "voice": null
+      },
+      {
+        "person": {
+          "id": 1,
+          "url": "N/A",
+          "name": "Character",
+          "country": {
+            "name": "N/A",
+            "code": "N/A",
+            "timezone": "N/A"
+          },
+          "birthday": "0",
+          "deathday": null,
+          "gender": "N/A",
+          "image": {
+            "medium": "https://placehold.jp/210x290.png",
+            "original": "https://placehold.jp/210x290.png"
+          },
+          "updated": 0,
+          "_links": {
+            "self": {
+              "href": "N/A"
+            }
+          }
+        },
+        "character": {
+          "id": 0,
+          "url": "N/A",
+          "name": "Character 3",
+          "image": {
+            "medium": "https://placehold.jp/210x290.png",
+            "original": "https://placehold.jp/210x290.png"
+          },
+          "_links": {
+            "self": {
+              "href": "N/A"
+            }
+          }
+        },
+        "self": null,
+        "voice": null
+      }
+    ]
+  }
+}
