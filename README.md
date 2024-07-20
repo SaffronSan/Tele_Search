@@ -24,7 +24,7 @@ To run this project locally, follow these steps:
 
 1. **Clone the Repository**: 
    ```bash
-   git clone https://github.com/your-username/tele-tv.git
+   git clone https://github.com/SaffronSan/tele-tv.git
    cd tele-tv
 2. **Open in Browser**:
    Simply open the index.html file in your preferred web browser to view the application.
